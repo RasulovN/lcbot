@@ -1,0 +1,30 @@
+{
+  "name": "edubot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "Rasulovdev",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegraf": "^4.16.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "nock": "^13.5.6",
+    "nodemon": "^3.1.7",
+    "telegraf-test": "^1.2.1"
+  }
+}
